@@ -1,1 +1,1 @@
-# santander-2024
+Repositório destinado ao armazenamento do curso de Java Básico do Santander - 2024.
