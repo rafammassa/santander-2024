@@ -39,5 +39,17 @@ public class Operadores2 {
         String nome2 = new String("Rafaella");
         System.out.println(nome1==nome2);
         System.out.println(nome1.equals(nome2));
+
+        //E (&&) e OU (||)
+        boolean condition1 = true;
+        boolean condition2 = false;
+
+        if (condition1 && condition2){
+            System.out.println("As duas condições são verdadeiras!");
+        } else if (condition1 || condition2) {
+            System.out.println("Uma das condições é verdadeira!");
+        } else {
+            System.out.println("As condições são falsas!");
+        }
     }
 }
