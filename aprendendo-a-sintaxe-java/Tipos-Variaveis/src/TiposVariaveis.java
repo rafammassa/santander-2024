@@ -1,5 +1,15 @@
 public class TiposVariaveis {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        byte idade = 123;
+        short ano = 2024;
+        int cep = 21070333;
+        long cpf = 12345678911L;
+        float pi = 3.1415926f;
+
+        System.out.println("Minha idade: " + idade);
+        System.out.println("Ano de Nascimento: " + ano);
+        System.out.println("Cep: " + cep);
+        System.out.println("Cpf: " + cpf);
+        System.out.println("Valor de PI: " + pi);
     }
 }
