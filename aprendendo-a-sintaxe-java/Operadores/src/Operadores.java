@@ -30,5 +30,12 @@ public class Operadores {
 
         numero = numero * -1;
         System.out.println(numero);
+
+        //incremento de número
+        numero++;
+        System.out.println(numero); //se o ++ vier depois, o número é impresso e depois incrementado
+
+        boolean variavel = true;
+        System.out.println(!variavel);
     }
 }
